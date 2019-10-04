@@ -1,0 +1,11 @@
+VERSION:3 SOURCE_TIMESTAMP:4B666A4F
+NODE:I LEVEL:0 LINE:24 "C:\Program Files (x86)\Codevision\inc\mega16.h"
+NODE:I LEVEL:0 LINE:26 "C:\Program Files (x86)\Codevision\inc\delay.h"
+NODE:I LEVEL:0 LINE:29 "C:\Program Files (x86)\Codevision\inc\alcd.h"
+NODE:V LEVEL:0 LINE:32 "z -> R4,R5"
+NODE:V LEVEL:0 LINE:32 "n -> R6,R7"
+NODE:V LEVEL:0 LINE:33 "led -> RAM:????"
+NODE:F LEVEL:0 LINE:35 "findled(void)"
+NODE:M LEVEL:0 LINE:51 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:54 "read_adc(unsigned char adc_input)"
+NODE:F LEVEL:0 LINE:67 "main(void)"

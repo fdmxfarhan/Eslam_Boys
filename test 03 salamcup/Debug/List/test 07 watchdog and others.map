@@ -1,0 +1,65 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SKR                                                                               0x0160       2
+SKB                                                                               0x0162       2
+cmp                                                                               0x0164       2
+v                                                                                 0x0166       2
+k                                                                                 0x0168       2
+addres                                                                            0x016A       1
+x                                                                                 0x016B       2
+y                                                                                 0x016D       2
+w                                                                                 0x016F       2
+h                                                                                 0x0171       2
+ch                                                                                0x0173       2
+sn                                                                                0x0175       2
+a                                                                                 0x0177       1
+out                                                                               0x0178       1
+vs                                                                                0x0179       2
+imin                                                                              0x017B       2
+f                                                                                 0x017D       2
+_base_y                                                                           0x017F       4
+_lcd_x                                                                            0x0183       1
+_lcd_y                                                                            0x0184       1
+_lcd_maxx                                                                         0x0185       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+c                                                                                 0x0000       2
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+SR                                                                                R4,R5        2
+SB                                                                                R6,R7        2
+SL                                                                                R8,R9        2
+SKF                                                                               R10,R11      2
+SKL                                                                               R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x0006B     15
+read                                                                              0x0007A     32
+compass_read                                                                      0x0009A     35
+read_pixy                                                                         0x000BD    136
+sensor                                                                            0x00145    293
+motor                                                                             0x0026A    174
+move                                                                              0x00318    247
+catch                                                                             0x0040F    353
+out_sharp                                                                         0x00570    202
+main                                                                              0x0063A    237
+_lcd_delay_G100                                                                   0x00727      4
+_lcd_ready                                                                        0x0072B     17
+_lcd_write_nibble_G100                                                            0x0073C     10
+_lcd_write_data                                                                   0x00746     15
+_lcd_read_nibble_G100                                                             0x00755      9
+lcd_read_byte0_G100                                                               0x0075E      9
+lcd_gotoxy                                                                        0x00767     20
+lcd_clear                                                                         0x0077B     21
+lcd_putchar                                                                       0x00790     39
+lcd_putsf                                                                         0x007B7     19
+_long_delay_G100                                                                  0x007CA      5
+_lcd_init_write_G100                                                              0x007CF     12
+lcd_init                                                                          0x007DB     46

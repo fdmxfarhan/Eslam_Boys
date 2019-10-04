@@ -1,0 +1,15 @@
+int cmp,c;
+#define EEPROM_BUS_ADDRESS 0xc0  
+/* read/ a byte from the EEPROM */
+unsigned char compass_read(unsigned char address) 
+ {
+    unsigned char data;
+    i2c_start();
+    i2c_write(EEPROM_BUS_ADDRESS);
+    i2c_write(address);
+    i2c_start();
+    i2c_write(EEPROM_BUS_ADDRESS | 1);
+    data=i2c_read(0);
+    i2c_stop();
+    return data;
+ }

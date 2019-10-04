@@ -1,0 +1,6 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"test 07 watchdog and others.c" LINE:331
+motor DSTACK_USAGE:8 DSTACK_LEVEL:8 FILE:"test 07 watchdog and others.c" LINE:226
+sensor DSTACK_USAGE:0 DSTACK_LEVEL:8 FILE:"test 07 watchdog and others.c" LINE:114
+lcd_putchar DSTACK_USAGE:1 DSTACK_LEVEL:9 FILE:"F:\app\code vision\codeeeeeeeeeeeeeeeeeeeeeeeee\lib\lcd.lib" LINE:178
+lcd_gotoxy DSTACK_USAGE:2 DSTACK_LEVEL:11 FILE:"F:\app\code vision\codeeeeeeeeeeeeeeeeeeeeeeeee\lib\lcd.lib" LINE:158
+_lcd_write_data DSTACK_USAGE:1 DSTACK_LEVEL:12 FILE:"F:\app\code vision\codeeeeeeeeeeeeeeeeeeeeeeeee\lib\lcd.lib" LINE:77

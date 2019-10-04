@@ -1,0 +1,84 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+SR                                                                                0x0160       2
+k                                                                                 0x0162       2
+SKF                                                                               0x0164       2
+SKL                                                                               0x0166       2
+SKB                                                                               0x0168       2
+SKR                                                                               0x016A       2
+print_lcd                                                                         0x016C       2
+old_print_lcd                                                                     0x016E       2
+cmp                                                                               0x0170       2
+v                                                                                 0x0172       2
+position                                                                          0x0174       2
+action                                                                            0x0176       2
+setcmp                                                                            0x0178       1
+setback1                                                                          0x0179       1
+setback2                                                                          0x017A       1
+setback3                                                                          0x017B       1
+setkaf1                                                                           0x017C       1
+setkaf2                                                                           0x017D       1
+setkaf3                                                                           0x017E       1
+setkaf4                                                                           0x017F       1
+setzamin1                                                                         0x0180       1
+setzamin2                                                                         0x0181       1
+setzamin3                                                                         0x0182       1
+setzamin4                                                                         0x0183       1
+out                                                                               0x0184       1
+_base_y                                                                           0x0185       4
+_lcd_x                                                                            0x0189       1
+_lcd_y                                                                            0x018A       1
+_lcd_maxx                                                                         0x018B       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+c                                                                                 0x0000       2
+kafmin1                                                                           0x0002       2
+kafmin2                                                                           0x0004       2
+kafmin3                                                                           0x0006       2
+kafmin4                                                                           0x0008       2
+kafmax1                                                                           0x000A       2
+kafmax2                                                                           0x000C       2
+kafmax3                                                                           0x000E       2
+kafmax4                                                                           0x0010       2
+kafmid1                                                                           0x0012       2
+kafmid2                                                                           0x0014       2
+kafmid3                                                                           0x0016       2
+kafmid4                                                                           0x0018       2
+backmax1                                                                          0x001A       2
+backmax2                                                                          0x001C       2
+backmax3                                                                          0x001E       2
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+i                                                                                 R4,R5        2
+imin                                                                              R6,R7        2
+min                                                                               R8,R9        2
+SL                                                                                R10,R11      2
+SB                                                                                R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x000F7     15
+compass_read                                                                      0x00106     35
+sensor                                                                            0x00129    372
+motor                                                                             0x0029D    231
+catch                                                                             0x00384    980
+main                                                                              0x00758    283
+_lcd_delay_G100                                                                   0x00873      4
+_lcd_ready                                                                        0x00877     17
+_lcd_write_nibble_G100                                                            0x00888     10
+_lcd_write_data                                                                   0x00892     15
+_lcd_read_nibble_G100                                                             0x008A1      9
+lcd_read_byte0_G100                                                               0x008AA      9
+lcd_gotoxy                                                                        0x008B3     20
+lcd_clear                                                                         0x008C7     21
+lcd_putchar                                                                       0x008DC     39
+lcd_putsf                                                                         0x00903     19
+_long_delay_G100                                                                  0x00916      5
+_lcd_init_write_G100                                                              0x0091B     12
+lcd_init                                                                          0x00927     46

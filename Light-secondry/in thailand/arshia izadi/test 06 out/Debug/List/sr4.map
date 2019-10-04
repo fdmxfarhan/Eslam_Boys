@@ -1,0 +1,46 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+i                                                                                 0x0160       2
+min                                                                               0x0162       2
+k                                                                                 0x0164       2
+_base_y                                                                           0x0166       4
+_lcd_x                                                                            0x016A       1
+_lcd_y                                                                            0x016B       1
+_lcd_maxx                                                                         0x016C       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+cmp                                                                               0x0000       2
+c                                                                                 0x0002       2
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+SR                                                                                R4,R5        2
+SB                                                                                R6,R7        2
+SL                                                                                R8,R9        2
+v                                                                                 R10,R11      2
+imin                                                                              R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x00060     15
+compass_read                                                                      0x0006F     35
+motor                                                                             0x00092    164
+sensor                                                                            0x00136    278
+main                                                                              0x0024C    518
+_lcd_delay_G100                                                                   0x00452      4
+_lcd_ready                                                                        0x00456     17
+_lcd_write_nibble_G100                                                            0x00467     10
+_lcd_write_data                                                                   0x00471     15
+_lcd_read_nibble_G100                                                             0x00480      9
+lcd_read_byte0_G100                                                               0x00489      9
+lcd_gotoxy                                                                        0x00492     20
+lcd_clear                                                                         0x004A6     21
+lcd_putchar                                                                       0x004BB     39
+_long_delay_G100                                                                  0x004E2      5
+_lcd_init_write_G100                                                              0x004E7     12
+lcd_init                                                                          0x004F3     46

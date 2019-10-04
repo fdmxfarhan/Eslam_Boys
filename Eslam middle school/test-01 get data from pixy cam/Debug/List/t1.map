@@ -1,0 +1,49 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+height                                                                            0x0160       2
+checksum                                                                          0x0162       2
+signature                                                                         0x0164       2
+sharpback                                                                         0x0166       2
+sharpright                                                                        0x0168       2
+sharpleft                                                                         0x016A       2
+k                                                                                 0x016C       2
+cnt1                                                                              0x016E       2
+cnt2                                                                              0x0170       2
+v                                                                                 0x0172       2
+b                                                                                 0x0174       1
+cmp                                                                               0x0175       2
+c                                                                                 0x0177       2
+_base_y                                                                           0x0179       4
+_lcd_x                                                                            0x017D       1
+_lcd_y                                                                            0x017E       1
+_lcd_maxx                                                                         0x017F       1
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+cnt0                                                                              R4,R5        2
+a                                                                                 R6,R7        2
+x                                                                                 R8,R9        2
+y                                                                                 R10,R11      2
+width                                                                             R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x0006D     15
+compass_read                                                                      0x0007C     25
+read_cmp                                                                          0x00095    196
+motor                                                                             0x00159    160
+main                                                                              0x001F9    581
+_lcd_write_nibble_G100                                                            0x0043E     20
+_lcd_write_data                                                                   0x00452     12
+lcd_gotoxy                                                                        0x0045E     17
+lcd_clear                                                                         0x0046F     14
+lcd_putchar                                                                       0x0047D     31
+lcd_init                                                                          0x0049C     47
+getchar                                                                           0x004CB      4

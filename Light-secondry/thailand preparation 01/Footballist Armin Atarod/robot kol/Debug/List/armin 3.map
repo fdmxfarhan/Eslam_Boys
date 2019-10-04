@@ -1,0 +1,31 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+_base_y                                                                           0x0160       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R4,R5        2
+lednumber                                                                         R6,R7        2
+maxled                                                                            R8,R9        2
+_lcd_x                                                                            R11          1
+_lcd_y                                                                            R10          1
+_lcd_maxx                                                                         R13          1
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+read_adc                                                                          0x01C6F     14
+main                                                                              0x01C7D    149
+_lcd_write_nibble_G101                                                            0x01D12     20
+_lcd_write_data                                                                   0x01D26     12
+lcd_gotoxy                                                                        0x01D32     13
+lcd_clear                                                                         0x01D3F     12
+lcd_putchar                                                                       0x01D4B     21
+lcd_putsf                                                                         0x01D60     19
+lcd_init                                                                          0x01D73     45

@@ -1,0 +1,38 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+SKR                                                               0x0160       2
+SKB                                                               0x0162       2
+cmp                                                               0x0164       2
+v                                                                 0x0166       2
+k                                                                 0x0168       2
+addres                                                            0x016A       1
+x                                                                 0x016B       2
+y                                                                 0x016D       2
+w                                                                 0x016F       2
+h                                                                 0x0171       2
+ch                                                                0x0173       2
+sn                                                                0x0175       2
+a                                                                 0x0177       1
+out                                                               0x0178       1
+vs                                                                0x0179       2
+imin                                                              0x017B       2
+f                                                                 0x017D       2
+_base_y                                                           0x017F       4
+_lcd_x                                                            0x0183       1
+_lcd_y                                                            0x0184       1
+_lcd_maxx                                                         0x0185       1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+c                                                                 0x0000       2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+SR                                                                R4,R5        2
+SB                                                                R6,R7        2
+SL                                                                R8,R9        2
+SKF                                                               R10,R11      2
+SKL                                                               R12,R13      2

@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:4C366DA9
+NODE:I LEVEL:0 LINE:23 "C:\cvavreval\inc\io.h"
+NODE:I LEVEL:0 LINE:25 "C:\cvavreval\inc\delay.h"
+NODE:I LEVEL:0 LINE:28 "C:\cvavreval\inc\i2c.h"
+NODE:I LEVEL:0 LINE:31 "C:\cvavreval\inc\alcd.h"
+NODE:M LEVEL:0 LINE:36 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:39 "read_adc(unsigned char adc_input)"
+NODE:V LEVEL:0 LINE:51 "imin -> R4,R5"
+NODE:V LEVEL:0 LINE:52 "i -> R6,R7"
+NODE:V LEVEL:0 LINE:53 "min -> R8,R9"
+NODE:F LEVEL:0 LINE:54 "sensor(void)"
+NODE:F LEVEL:0 LINE:79 "motor(int ml1,int ml2,int mr2,int mr1)"
+NODE:F LEVEL:0 LINE:129 "main(void)"

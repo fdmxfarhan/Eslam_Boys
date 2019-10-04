@@ -1,0 +1,2 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"test 03 catchball.c" LINE:116
+motor DSTACK_USAGE:8 DSTACK_LEVEL:8 FILE:"test 03 catchball.c" LINE:60

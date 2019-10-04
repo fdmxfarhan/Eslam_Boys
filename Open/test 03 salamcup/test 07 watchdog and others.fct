@@ -1,0 +1,8 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"test 07 watchdog and others.c" LINE:381
+catch DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"test 07 watchdog and others.c" LINE:335
+move DSTACK_USAGE:2 DSTACK_LEVEL:2 FILE:"test 07 watchdog and others.c" LINE:314
+motor DSTACK_USAGE:8 DSTACK_LEVEL:10 FILE:"test 07 watchdog and others.c" LINE:229
+sensor DSTACK_USAGE:0 DSTACK_LEVEL:10 FILE:"test 07 watchdog and others.c" LINE:117
+lcd_putchar DSTACK_USAGE:1 DSTACK_LEVEL:11 FILE:"C:\cvavr\lib\lcd.lib" LINE:178
+lcd_gotoxy DSTACK_USAGE:2 DSTACK_LEVEL:13 FILE:"C:\cvavr\lib\lcd.lib" LINE:158
+_lcd_write_data DSTACK_USAGE:1 DSTACK_LEVEL:14 FILE:"C:\cvavr\lib\lcd.lib" LINE:77

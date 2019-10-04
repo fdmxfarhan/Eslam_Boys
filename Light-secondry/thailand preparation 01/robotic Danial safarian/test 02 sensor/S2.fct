@@ -1,0 +1,5 @@
+main DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"S2.c" LINE:80
+sensor DSTACK_USAGE:0 DSTACK_LEVEL:0 FILE:"S2.c" LINE:55
+lcd_putchar DSTACK_USAGE:1 DSTACK_LEVEL:1 FILE:"C:\cvavreval\lib\lcd.lib" LINE:182
+lcd_gotoxy DSTACK_USAGE:2 DSTACK_LEVEL:3 FILE:"C:\cvavreval\lib\lcd.lib" LINE:162
+_lcd_write_data DSTACK_USAGE:1 DSTACK_LEVEL:4 FILE:"C:\cvavreval\lib\lcd.lib" LINE:81

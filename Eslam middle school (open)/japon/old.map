@@ -1,0 +1,29 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+kb                                                                0160h        2
+kl                                                                0162h        2
+kr                                                                0164h        2
+kf                                                                0166h        2
+f                                                                 0168h        2
+adc                                                               016Ah       32
+adc_min                                                           018Ah        2
+i                                                                 018Ch        2
+_base_y                                                           018Eh        4
+_lcd_x                                                            0192h        1
+_lcd_y                                                            0193h        1
+_lcd_maxx                                                         0194h        1
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+c                                                                 0000h        2
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+cmp                                                               R4,R5        2
+B                                                                 R6,R7        2
+L                                                                 R8,R9        2
+R                                                                 R10,R11      2
+e                                                                 R12,R13      2

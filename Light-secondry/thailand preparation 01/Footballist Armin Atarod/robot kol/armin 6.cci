@@ -1,0 +1,13 @@
+VERSION:3 SOURCE_TIMESTAMP:4B6CB17C
+NODE:I LEVEL:0 LINE:24 "C:\Program Files (x86)\Codevision\inc\mega16.h"
+NODE:I LEVEL:0 LINE:26 "C:\Program Files (x86)\Codevision\inc\delay.h"
+NODE:I LEVEL:0 LINE:29 "C:\Program Files (x86)\Codevision\inc\alcd.h"
+NODE:M LEVEL:0 LINE:33 "ADC_VREF_TYPE"
+NODE:F LEVEL:0 LINE:34 "read_adc(unsigned char adc_input)"
+NODE:V LEVEL:0 LINE:47 "i -> R4,R5"
+NODE:V LEVEL:0 LINE:47 "led -> RAM:????"
+NODE:V LEVEL:0 LINE:47 "adc_min -> R6,R7"
+NODE:F LEVEL:0 LINE:48 "sensor(void)"
+NODE:F LEVEL:0 LINE:72 "motor(int mr1,int mr2,int ml1,int ml2)"
+NODE:F LEVEL:0 LINE:127 "findball(void)"
+NODE:F LEVEL:0 LINE:151 "main(void)"

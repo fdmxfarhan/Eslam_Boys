@@ -1,0 +1,19 @@
+RAM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+compare                                                           0260h        4
+_seed                                                             0264h        4
+p                                                                 0268h        2
+
+EEPROM Allocation
+Variable                                                          Address   Size
+--------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                          Register  Size
+--------------------------------------------------------------------------------
+counter                                                           R5           1
+imasker                                                           R4           1
+mask                                                              R7           1
+imask                                                             R6           1
+i                                                                 R9           1
